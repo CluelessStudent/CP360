@@ -3,7 +3,7 @@ import java.awt.Color;
 public class cube {
 
 	// Setting up our coordinates and putting them in a list to be easily
-	// editted.
+	// edited.
 	coord a = new coord(-50, -50, 50);
 	coord b = new coord(50, -50, 50);
 	coord c = new coord(50, 50, 50);
