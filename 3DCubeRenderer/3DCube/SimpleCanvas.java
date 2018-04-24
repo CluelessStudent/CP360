@@ -81,7 +81,7 @@ public class SimpleCanvas extends JPanel {
 
 				// Doing all of the necessary calculations so that we can
 				// determine if we can see the face or not, depending on the
-				// angle between out face and the outwards facing normal of the
+				// angle between our face and the outwards facing normal of the
 				// face.
 				coord ab = func.vectorSubtraction(current_face.getA(), current_face.getB());
 				coord da = func.vectorSubtraction(current_face.getA(), current_face.getD());
